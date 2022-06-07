@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { useSpeechSynthesis } from "react-speech-kit";
 
 export default function TextForm(props) {
-    const [text,setText]= useState('Enter text here');
+    const [text,setText]= useState('');
     const [value, setValue] = React.useState("");
     const { speak } = useSpeechSynthesis();
     const handleUpclick = () =>
@@ -91,7 +91,7 @@ export default function TextForm(props) {
    <h1>{props.heading}</h1>
 
  <div className="form-group">
-    <textarea className="form-control" value={text}  onChange={handleOnChange} id="MyBox" rows="8"></textarea>
+    <textarea className="form-control" value={text}  onChange={handleOnChange} id="MyBox" rows="8" placeholder='Enter text here'></textarea>
   </div>
   <div className="row">
   <div className="col ">
