@@ -25,15 +25,21 @@ Visit Now-> https://jaygajera17.github.io/Text-Editor-React/
 - paragraph 
 - average character per word <br>
 
-<h4> 3. Preview 
-
  
-
-
-
-
-  
 ## preview
   
 <img width="623" alt="image" src="https://user-images.githubusercontent.com/81226571/172570821-d649f5b9-d2e1-4ea8-ac11-76e1ec816a46.png">
 
+
+## Future ideas
+
+<p> Generate the issue if you can handle any below functionality by Javascript function </p>
+ 
+- bold,italic,underline
+- remove symbol,number.
+- change font size,family,color
+- order,inorder list
+- change the voice in text-to-speech
+- add the image,video . 
+- Table Generate 
+- add more style in preview 
