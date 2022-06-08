@@ -1,6 +1,7 @@
 # Text-Editor-React
 Text Editor,Text-to-speech,Analysis,Summary  using react.
 
+Visit Now-> https://jaygajera17.github.io/Text-Editor-React/
 # featueres 
  <h4> 1.Tools </h4>
  
